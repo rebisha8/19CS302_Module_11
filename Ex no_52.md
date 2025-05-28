@@ -17,6 +17,7 @@ Note: I/O will be automatically handled.
 AIM:
 To write a function int max_of_four(int a, int b, int c, int d) which reads four arguments and returns the greatest of them.
 
+
 Algorithm:
 Start
 Accept four integer inputs: a, b, c, and d.
@@ -29,6 +30,7 @@ Compare max with d:
 If d is greater than max, update max = d.
 Return max as the largest number.
 End
+
 PROGRAM:
 #include<stdio.h>
 int compare(int a[4])
@@ -49,8 +51,10 @@ int main()
     int d= compare(a);
     printf("%d",d);
 }
+
 OUTPUT:
-image
+
+![image](https://github.com/user-attachments/assets/407c7085-1a07-4df4-8349-d8ec74ad6a14)
 
 RESULT:
 Thus, the program is executed and verified successfully.
